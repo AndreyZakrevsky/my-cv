@@ -145,7 +145,7 @@
         <strong class="silver-taxt">NodeJs</strong>
         <v-progress-linear v-model="node" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
-      <div class="mt-4 pt-2">
+      <div class="mt-4 pt-4">
         <v-btn
           href="https://drive.google.com/open?id=14DMsXECDpAUhRoVajAnAFib3OI1iCtoP"
           target="_blank"
@@ -229,6 +229,8 @@
     background: linear-gradient(to right, #0ac43d 0%, #00ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0097ff', endColorstr='#00b8ff', GradientType=1);
+
+    z-index:2;
   }
 
   .btn-ka:hover {

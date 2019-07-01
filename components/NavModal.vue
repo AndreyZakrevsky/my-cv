@@ -6,7 +6,8 @@
                 <p class="item" @click="changePage('/')">HOME</p>
                 <p class="item" @click="changePage('/resume')">RESUME</p>
                 <p class="item" @click="changePage('/contact')">CONTACT</p>
-                <p class="item">FOTO</p>
+                <p class="item" @click="changePage('/projects')">PROJECTS</p>
+                <p class="item" @click="changePage('/gallery')">GALLERY</p>
             </div>
         </div>
         <div class="blur-class"></div>
@@ -56,7 +57,7 @@
         height: 100%;
         left: 0;
         top: 0;
-        z-index: 2;
+        z-index: 9999;
         display: block;
 
         @keyframes slide {

@@ -41,11 +41,7 @@
                     <span>+380&nbsp;</span>
                     <span class="green--text">962090490</span>
                 </div>
-                <div class="py-4 subheading font-weight-bold">
-                    <v-icon large color="green" left>fas fa-check</v-icon>
-                    <span>Freelance</span>
-                    <span class="green--text">Available</span>
-                </div>
+
             </v-flex>
 
             <v-flex xs12 sm12 md6 lg6 xl6>
